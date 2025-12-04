@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+/* Hero Section seperti Preview */
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1596401057633-565652b5e260?auto=format&fit=crop&q=80&w=1920');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 2rem;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.hover-effect:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s;
+}
