@@ -8,7 +8,7 @@ $query = mysqli_query($conn, "SELECT * FROM wisata ORDER BY views DESC LIMIT 6")
 <div class="hero-section text-center">
     <div class="container">
         <h1 class="display-4 fw-bold mb-3">Wisata Purbalingga</h1>
-        <p class="lead mb-4">Temukan keindahan alam, edukasi, dan sejarah di Kota Perwira.</p>
+        <p class="lead mb-4">Temukan keindahan alam, edukasi, dan sejarah yang terdapat di Kota Perwira.</p>
         
         <!-- Search Bar Hero -->
         <div class="row justify-content-center">
